@@ -7,7 +7,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-public class Main extends Application {
+public class Inicio extends Application {
     public static void main(String[] args) {
 
 // Chama o método 'Start'
@@ -33,8 +33,10 @@ public class Main extends Application {
         stage.setScene(scene);
 
         // Retira a barra superior da janela (icone, título, minimizar, maximizar e fechar)
-        stage.initStyle(StageStyle.UNDECORATED);
+//        stage.initStyle(StageStyle.UNDECORATED);
+
         // Não permite redimensionamento
+
         stage.setResizable(false);
         // Apresenta a janela centralizada na tela
         stage.centerOnScreen();
