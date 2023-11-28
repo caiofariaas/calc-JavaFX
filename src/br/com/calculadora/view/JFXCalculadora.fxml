@@ -6,25 +6,30 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="382.0" prefWidth="321.0" style="-fx-background-color: #c4c4c4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.calculadora.controller.JFXCalculadora">
    <children>
-      <Label layoutX="83.0" layoutY="69.0" prefHeight="28.0" prefWidth="155.0" text="Primeiro Número">
+      <Label layoutX="82.0" layoutY="37.0" prefHeight="28.0" prefWidth="155.0" text="Primeiro Número">
          <font>
             <Font size="19.0" />
          </font>
       </Label>
-      <TextField fx:id="tfNum1" layoutX="57.0" layoutY="118.0" prefHeight="35.0" prefWidth="210.0" />
-      <Button fx:id="btnCalcular" layoutX="119.0" layoutY="281.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="86.0" text="Calcular">
+      <TextField fx:id="tfNum1" layoutX="56.0" layoutY="86.0" prefHeight="35.0" prefWidth="210.0" />
+      <Button fx:id="btnCalcular" layoutX="118.0" layoutY="337.0" mnemonicParsing="false" onAction="#calcular" prefHeight="28.0" prefWidth="86.0" text="Calcular">
          <font>
             <Font size="15.0" />
          </font>
       </Button>
-      <Label layoutX="83.0" layoutY="177.0" prefHeight="28.0" prefWidth="155.0" text="Segundo Número">
+      <Label layoutX="82.0" layoutY="145.0" prefHeight="28.0" prefWidth="155.0" text="Segundo Número">
          <font>
             <Font size="19.0" />
          </font>
       </Label>
-      <TextField fx:id="tfNum2" layoutX="57.0" layoutY="223.0" prefHeight="35.0" prefWidth="210.0" />
+      <TextField fx:id="tfNum2" layoutX="56.0" layoutY="191.0" prefHeight="35.0" prefWidth="210.0" />
+      <TextField fx:id="tfResultado" layoutX="56.0" layoutY="282.0" prefHeight="35.0" prefWidth="210.0" />
+      <Label layoutX="84.0" layoutY="247.0" prefHeight="28.0" prefWidth="155.0" text="Resultado">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
